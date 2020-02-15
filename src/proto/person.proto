@@ -2,6 +2,11 @@ syntax = "proto3";
 
 package util;
 
+option java_package = "com.marcusvmleite";
+option java_outer_classname = "PersonProto";
+//option java_multiple_files = true;
+//option optimize_for = CODE_SIZE;
+
 message Person {
     int32 age = 1;
     string first_name = 2;
